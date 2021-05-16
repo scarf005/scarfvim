@@ -11,6 +11,10 @@ call plug#end()
 " Plugin Settings
 source $HOME/scarfvim/coc-rc.vim
 
+let g:ale_open_list=1
+autocmd FileType qf setlocal wrap
+
+
 " Visual
 syntax on
 set nu

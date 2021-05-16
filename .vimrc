@@ -1,1 +1,1 @@
-source $HOME/scarfvim/scarf-vimrc.vim
+source $HOME/scarfvim/scarfvim.vim
