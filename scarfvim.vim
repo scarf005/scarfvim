@@ -5,6 +5,8 @@ source $SV/plugins.vim
 source $SV/general.vim
 
 " Plugin Settings
-source $SVC/coc.vim
-source $SVC/ale.vim
-source $SVC/nerdtree.vim
+let g:list = systemlist('ls -d $SVC/*')
+for f in g:list
+"for f in split(glob($SVC/*.vim), '\n')'
+	exe 'source' f
+endfor
