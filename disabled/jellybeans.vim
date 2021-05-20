@@ -1,7 +1,7 @@
 colorscheme jellybeans
-"highlight clear SignColumn
-set signcolumn=number
 highlight SpecialKey ctermbg=none
+
+"highlight clear SignColumn
 
 " Use Terminal Background
 "let g:jellybeans_overrides = {

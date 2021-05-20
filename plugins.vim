@@ -20,5 +20,4 @@ call plug#begin('~/.vim/plugged')
 	" Colorscheme
 	Plug('nanotech/jellybeans.vim')
 	Plug('arcticicestudio/nord-vim')
-
 call plug#end()
