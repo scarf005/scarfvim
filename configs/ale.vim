@@ -1,5 +1,4 @@
 let g:ale_c_cc_options = '-Wall -Wextra -Werrors'
-let g:ale_c_norminette_options = '-R CheckForbiddenSourceHeader'
 let g:ale_fixers = {
   \ 'python': ['black'],
   \ '*': ['remove_trailing_lines', 'trim_whitespace']

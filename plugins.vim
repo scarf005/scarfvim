@@ -4,9 +4,8 @@ call plug#begin('~/.vim/plugged')
 	Plug('pbondoer/vim-42header')
 
 	" Syntax
-	Plug('desmap/ale-sensible') | Plug('dense-analysis/ale')
+	Plug('dense-analysis/ale')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 	" Lightline
 	Plug('itchyny/lightline.vim') | Plug('mengelbrecht/lightline-bufferline')
 
