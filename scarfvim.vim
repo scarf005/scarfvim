@@ -1,8 +1,10 @@
 " Vim-Plug
 source $SV/plugins.vim
 
-" Plugin Settings
+" General Settings
 source $SV/general.vim
-source $SV/coc.vim
-source $SV/ale.vim
-source $SV/nerdtree.vim
+
+" Plugin Settings
+source $SVC/coc.vim
+source $SVC/ale.vim
+source $SVC/nerdtree.vim

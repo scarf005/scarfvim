@@ -3,8 +3,8 @@ call plug#begin('~/.vim/plugged')
 	Plug('dense-analysis/ale')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-	" Bufferline
-	Plug('bling/vim-bufferline')
+	" Lightline
+	Plug('itchyny/lightline.vim')
 
 	" NERDTree
 	Plug('preservim/nerdtree')
