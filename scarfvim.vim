@@ -1,24 +1,8 @@
-call plug#begin('~/.vim/bundle')
-	" Syntax
-	Plug('dense-analysis/ale')
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-	" File Viewer
-	Plug('preservim/nerdtree')
-
-call plug#end()
+" Vim-Plug
+source $SV/plugins.vim
 
 " Plugin Settings
-source $HOME/scarfvim/coc-rc.vim
-
-let g:ale_open_list=1
-autocmd FileType qf setlocal wrap
-
-
-" Visual
-syntax on
-set nu
-set list listchars=tab:>-,trail:~,eol:$
-
-" Status Line
-set ruler
+source $SV/general.vim
+source $SV/coc.vim
+source $SV/ale.vim
+source $SV/nerdtree.vim
