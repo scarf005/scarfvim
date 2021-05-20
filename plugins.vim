@@ -1,6 +1,10 @@
 call plug#begin('~/.vim/plugged')
+	" General
+	Plug('tpope/vim-sensible')
+	Plug('pbondoer/vim-42header')
+
 	" Syntax
-	Plug 'desmap/ale-sensible' | Plug('dense-analysis/ale')
+	Plug('desmap/ale-sensible') | Plug('dense-analysis/ale')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 	" Lightline
