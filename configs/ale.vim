@@ -1,11 +1,14 @@
+let g:ale_disable_lsp = 1
+
 let g:ale_c_cc_options = '-Wall -Wextra -Werror'
 let g:ale_fixers = {
   \ 'python': ['black'],
   \ '*': ['remove_trailing_lines', 'trim_whitespace']
   \ }
+"let g:ale_linters = {'c': ['gcc']}
 
+let g:ale_echo_msg_format = '[%linter%]:%s'
 let g:ale_fix_on_save = 1
-
 let g:ale_open_list=1
 "autocmd FileType qf setlocal wrap
 augroup CloseLoclistWindowGroup
