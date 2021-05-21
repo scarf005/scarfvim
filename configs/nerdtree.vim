@@ -1,5 +1,5 @@
 " Start NERDTree
-autocmd VimEnter * NERDTree | wincmd p
+autocmd VimEnter * NERDTree | :set scl=no | wincmd p
 
 " Automatically close nerdtree on closing file 
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree")
@@ -7,8 +7,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree")
 
 " Graphics
 let g:NERDTreeWinSize=22
-
-" enable line numbers
+let NERDTreeMinimalUI=1
 let NERDTreeShowLineNumbers=1
 
 " make sure relative line numbers are used

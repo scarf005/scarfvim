@@ -7,7 +7,7 @@ let g:ale_fixers = {
 let g:ale_fix_on_save = 1
 
 let g:ale_open_list=1
-autocmd FileType qf setlocal wrap
+"autocmd FileType qf setlocal wrap
 augroup CloseLoclistWindowGroup
 	autocmd!
 	autocmd QuitPre * if empty(&buftype) | lclose | endif

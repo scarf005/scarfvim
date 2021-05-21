@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 	" Syntax
 	Plug('dense-analysis/ale')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug('vim-syntastic/syntastic') | Plug('alexandregv/norminette-vim')
 	" Lightline
 	Plug('itchyny/lightline.vim') | Plug('mengelbrecht/lightline-bufferline')
 
