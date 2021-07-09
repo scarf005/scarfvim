@@ -3,7 +3,7 @@ let g:syntastic_c_checkers = ['norminette']
 let g:syntastic_aggregate_errors = 1
 
 " Set the path to norminette (do no set if using norminette of 42 mac)
-let g:syntastic_c_norminette_exec = '~/.norminette/norminette.rb'
+"let g:syntastic_c_norminette_exec = '~/.norminette/norminette.rb'
 
 " Support headers (.h)
 let g:c_syntax_for_h = 1
